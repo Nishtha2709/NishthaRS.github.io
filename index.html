@@ -8,6 +8,8 @@
   <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
   <!-- main css -->
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- responsive css -->
+  <link rel="stylesheet" type="text/css" href="css/responsive.css">
   <!-- default color skin -->
   <link rel="stylesheet" type="text/css" href="css/skins/color-1.css">
 </head>
@@ -18,10 +20,10 @@
     <div class="container">
       <div class="row justify-content-between">
         <div class="logo">
-          <a href="index.html">W</a>
+          <a href="index.html">N</a>
         </div>
 
-        <div class="hamburger-btn outer-shadow hover-in-shadow">
+        <div class="hamburgerBtn outer-shadow hover-in-shadow">
           <span>
 
           </span>
@@ -36,21 +38,25 @@
     <div class="close-nav-menu outer-shadow hover-in-shadow">&times;</div>
       <div class="nav-menu-inner">
         <ul>
-          <li><a href="#" class="inner-shadow active">Home</a></li>
-          <li><a href="#" class="outer-shadow hover-in-shadow">About</a></li>
-          <li><a href="#" class="outer-shadow hover-in-shadow">Blog</a></li>
-          <li><a href="#" class="outer-shadow hover-in-shadow">Projects</a></li>
-          <li><a href="#" class="outer-shadow hover-in-shadow">Contact</a></li>
+          <li><a href="#home" class="link-item inner-shadow active">Home</a></li>
+          <li><a href="#about" class="link-item outer-shadow hover-in-shadow">About</a></li>
+          <!-- <li><a href="#" class="outer-shadow hover-in-shadow">Blog</a></li> -->
+          <li><a href="#services" class="link-item outer-shadow hover-in-shadow">Projects</a></li>
+          <li><a href="#contact" class="link-item outer-shadow hover-in-shadow">Contact</a></li>
         </ul>
 
       </div>
 
       <p class="class copyright-text">&copy; 2021 Nishtha R. Sainger</p>
+
+      <div class="fade-out-effect">
+
+      </div> 
   </nav>
   <!-- nav menu end -->
 
   <!-- home start -->
-  <section class="home-section section">
+  <section class="home-section section active" id="home">
     <!-- effect wrap start -->
     <div class="effect-wrap">
       <div class="effect effect-1"></div>
@@ -106,7 +112,7 @@
           <p>Hello World!</p>
           <h2>I'm Nishtha</h2>
           <h1>SJNFJLSNRFJL</h1>
-          <a href="#" class="btn-1 outer-shadow hover-in-shadow">More About Me</a>
+          <a href="#about" class="link-item btn-1 outer-shadow hover-in-shadow">More About Me</a>
         </div>
         <div class="home-img">
           <div class="img-box inner-shadow">
@@ -118,6 +124,287 @@
     </div>
   </section>
   <!-- home end -->
+
+  <!-- abour section start -->
+  <section class="about-section section" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2 data-heading="main info">About Me</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="about-img">
+        <div class="img-box inner-shadow">
+          <img src="img/profile-pic.png" class="outer-shadow" alt="profile-pic">
+        </div>
+        <!-- social icons start -->
+        <div class="social-links">
+          <a href="https://github.com/Nishtha2709" class="outer-shadow hover-in-shadow" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/nishtharsainger/" class="outer-shadow hover-in-shadow" target="_blank" ><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://instagram.com/nish_sainger?utm_medium=copy_link" class="outer-shadow hover-in-shadow" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://medium.com/@nish279rs" class="outer-shadow hover-in-shadow" target="_blank"><i class="fab fa-medium"></i></a>
+        </div>
+        <!-- social icons end -->
+      </div>
+      <div class="about-info">
+        <p><span>Hi! My name is Nishtha Sainger</span>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quasi quo officiis consectetur reprehenderit officia laborum error labore incidunt vero voluptas totam quis expedita, excepturi placeat maxime. Repellat, consectetur doloribus.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem repellat at ipsum odio placeat ex eligendi, facilis nobis ullam nulla quas nihil vero, quisquam dicta obcaecati qui officiis nemo necessitatibus?</p>
+        <a href="cv.pdf" target=_blank class="btn-1 outer-shadow hover-in-shadow">Download CV</a>
+        <a href="#contact" target=_blank class="link-item btn-1 outer-shadow hover-in-shadow">Contact Me</a>
+      </div>
+    </div>
+
+    <!-- about section tabs start -->
+    <div class="row">
+      <div class="about-tabs">
+        <span class="tab-item outer-shadow active" data-target=".skills">Skills</span>
+        <span class="tab-item" data-target=".experience">Experience</span>
+        <span class="tab-item" data-target=".education">Education</span>
+      </div>
+    </div>
+    <!-- about section tabs end -->
+
+    <!-- skills section start -->
+    <div class="row">
+      <div class="skills tab-content active">
+        <div class="row"> 
+          <!-- SKILL ITEM START -->
+          <!-- <div class="skill-item"> -->
+            <!-- <p>HTML</p> -->
+          <!-- </div> -->
+          <!-- SKILL ITEM END -->
+          <!-- SKILL ITEM START -->
+          <!-- <div class="skill-item"> -->
+            <!-- <p>JavaScript</p> -->
+          <!-- </div> -->
+          <!-- SKILL ITEM END -->
+        </div>
+      </div>
+    </div>
+    
+    <!-- skills section end -->
+
+    <!-- experience start -->
+    <div class="row">
+      <div class="experience tab-content">
+        <div class="row">
+          <div class="timeline">
+            <div class="row">
+              <!-- timeline item start -->
+              <div class="timeline-item">
+                <div class="timeline-item-inner outer-shadow">
+                  <i class="fas fa-briefcase icon"></i>
+                  <span>June 2021, Present</span>
+                  <h3>Social Media Head</h3>
+                  <h4>Nurturing Lives, NGO</h4>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus nisi molestias commodi tenetur aliquam deleniti, odit itaque aperiam accus</p>
+                </div>
+              </div>
+              <!-- timeline item end -->
+
+              <!-- timeline item start -->
+              <div class="timeline-item">
+                <div class="timeline-item-inner outer-shadow">
+                  <i class="fas fa-briefcase icon"></i>
+                  <span>October 2019, Present</span>
+                  <h3>Sector Representative of Marketing</h3>
+                  <h4>PratibimbVJTI</h4>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus nisi molestias commodi tenetur aliquam deleniti, odit itaque aperiam accus</p>
+                </div>
+              </div>
+              <!-- timeline item end -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- experience end -->
+
+    <!-- education start -->
+    <div class="row">
+      <div class="education tab-content">
+        <div class="row">
+          <div class="timeline">
+            <div class="row">
+              <!-- timeline item start -->
+              <div class="timeline-item">
+                <div class="timeline-item-inner outer-shadow">
+                  <i class="fas fa-graduation-cap icon"></i>
+                  <span>August 2019, Present</span>
+                  <h3>B.Tech. in Information Technology</h3>
+                  <h4>Veermata Jijabai Technological Institute</h4>
+                  <p>cgpa:9.07</p>
+                </div>
+              </div>
+              <!-- timeline item end -->
+
+              <!-- timeline item start -->
+              <div class="timeline-item">
+                <div class="timeline-item-inner outer-shadow">
+                  <i class="fas fa-graduation-cap icon"></i>
+                  <span>June 2017, June 2019</span>
+                  <h3>HSC</h3>
+                  <h4>S.S. High School and Junior College</h4>
+                  <p>88.15%</p>
+                </div>
+              </div>
+              <!-- timeline item end -->
+               <!-- timeline item start -->
+               <div class="timeline-item">
+                <div class="timeline-item-inner outer-shadow">
+                  <i class="fas fa-graduation-cap icon"></i>
+                  <span>June 2016, June 2017</span>
+                  <h3>10th CBSE</h3>
+                  <h4>St. Joseph's High School (C.B.S.E)</h4>
+                  <p>97.2%</p>
+                </div>
+              </div>
+              <!-- timeline item end -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- education end -->
+    </div>
+  </section>
+  <!-- about section end -->
+
+  <!-- project section start -->
+  <section class="service-section section" id="services">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2 data-heading="Projects">
+            My Work
+          </h2>
+        </div>
+      </div>
+      <div class="contain">
+        <div class="card">
+          <div class="circle">
+            <h2>01</h2>
+          </div>
+          <div class="content">
+            <p><b>SIZE AND FIT</b></p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis nisi repellat eveniet at officiis fuga. Quasi aliquam culpa necessitatibus</p>
+            <a href="https://github.com/Nishtha2709/Mind-Debuggers" target="_blank">Find it here</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="circle">
+            <h2>02</h2>
+          </div>
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis nisi repellat eveniet at officiis fuga. Quasi aliquam culpa necessitatibus</p>
+            <a href="https://github.com/Nishtha2709/plasmaFinder" target="_blank">Find it here</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="circle">
+            <h2>03</h2>
+          </div>
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis nisi repellat eveniet at officiis fuga. Quasi aliquam culpa necessitatibus</p>
+            <a href="#" target="_blank">Find it here</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="circle">
+            <h2>04</h2>
+          </div>
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis nisi repellat eveniet at officiis fuga. Quasi aliquam culpa necessitatibus </p>
+            <a href="https://github.com/Nishtha2709/NishthaRS.github.io" target="_blank">Find it here</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- project section end -->
+
+  <!-- contact section start -->
+  <section class="contact-section section" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2 data-heading="contact">Get in Touch</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="contact-item">
+          <div class="contact-item-inner outer-shadow">
+            <i class="fas fa-envelope"></i>
+            <span>Email id</span>
+            <p>nish279rs@gmail.com</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="contact-item">
+          <div class="contact-item-inner outer-shadow">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Address</span>
+            <p>Navi Mumbai, Maharashtra</p>
+          </div>
+        </div>
+        <!-- contact item end -->
+      </div>
+
+      <div class="row">
+        <div class="contact-form">
+          <form>
+            <div class="row">
+              <div class="w-50">
+                <div class="input-group outer-shadow hover-in-shadow">
+                  <input type="text" placeholder="Name" class="input-control"> 
+                </div>
+
+                <div class="input-group outer-shadow hover-in-shadow">
+                  <input type="text" placeholder="Email" class="input-control"> 
+                </div>
+
+                <div class="input-group outer-shadow hover-in-shadow">
+                  <input type="text" placeholder="Subject" class="input-control"> 
+                </div>
+
+              </div>
+              <div class="w-50">
+                <div class="input-group outer-shadow hover-in-shadow">
+                  <textarea class="input-control" placeholder="Message"></textarea>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="submit-btn">
+                <button type="submit" class="btn-1 outer-shadow hover-in-shadow">Send Message</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- contact section end -->
+
+  <div class="style-switcher">
+    <div class="style-toggler">
+      <i class="fas fa-cog fa-spin"></i>
+    </div>
+
+    <div class="day-night">
+      <i class="fas fa-moon"></i>
+    </div>
+
+    <h4>Theme Colors</h4>
+  </div>
+
+
+
+
 
 <!-- main js -->
 <script src="js/main.js"></script>
