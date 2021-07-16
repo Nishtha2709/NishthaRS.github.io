@@ -10,13 +10,13 @@
 
     function showNavMenu(){
         navMenu.classList.add("open");
-        bodyScrollingToggle();
+        // bodyScrollingToggle();
     }
 
     function hideNavMenu(){
         navMenu.classList.remove("open");
         fadeOutEffect();
-        bodyScrollingToggle();
+        // bodyScrollingToggle();
     }
 
     function fadeOutEffect(){
