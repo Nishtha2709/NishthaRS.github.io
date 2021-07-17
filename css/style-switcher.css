@@ -40,8 +40,10 @@
     top: 0;
 }
 .style-switcher .day-night{
-    top: 200px;
+    top: 50px;
+    /* right: 10px; */
 }
+
 
 .style-switcher h4{
     margin: 0 0 10px;
@@ -61,7 +63,7 @@
     display: inline-block;
     height: 30px;
     width: 30px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     border-radius: 50%;
     cursor: pointer;
 }

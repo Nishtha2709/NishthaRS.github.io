@@ -287,6 +287,61 @@ img{
 .section.hide{
     display: none;
 }
+
+
+
+/* ---------------preloader--------------- */
+
+.preloader{
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1500;
+    background-color: var(--bg-black-50);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.preloader .fade-out{
+    opacity: 0;
+    transition: all 0.6s ease;
+}
+
+.preloader .box{
+    width: 65px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.preloader .box div{
+    height: 15px;
+    width: 15px;
+    background-color: var(--skin-color);
+    border-radius: 50%;
+    animation: loaderAni 1s ease infinite;
+
+}
+
+.preloader .box div:nth-child(2){
+    animation-delay: 0.1s;
+}
+
+.preloader .box div:nth-child(3){
+    animation-delay: 0.2s;
+}
+@keyframes loaderAni{
+    0%,100%{
+        transform: translateY(0);
+    }
+
+    50%{
+        transform: translateY(-30px);
+    }
+}
 /* ----------header-------- */
 .header{
     padding: 20px 15px;
@@ -782,6 +837,10 @@ img{
     margin: 0;
 }
 .about-section .timeline .timeline-item-inner p{
+    font-size: 16px;
+    color: var(--text-black-600);
+    line-height: 26px;
+    margin: 15px 0 0;
 
 
 }
@@ -797,10 +856,12 @@ img{
 .contain{
     position: relative;
     min-width: 100vh;
+    top: 73px;
     width: 2000px;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
+    /* justify-content: space-between; */
     right: 10%;
     /* left: 10%; */
 }
@@ -839,8 +900,8 @@ img{
 
 .contain .card .circle h2{
     color: #fff;
-    font-size: 4.5em;
-    padding: 30px 0;
+    font-size: 2em;
+    padding: 50px 0;
 
 }
 
@@ -873,17 +934,17 @@ img{
 
 .contain .card:nth-child(2) .circle,
 .contain .card:nth-child(2) .content a{
-    background: #8a49ff;
+    background: #997F30;
 }
 
 .contain .card:nth-child(3) .circle,
 .contain .card:nth-child(3) .content a{
-    background: #ff9c07;
+    background: #8a49ff ;
 }
 
 .contain .card:nth-child(4) .circle,
 .contain .card:nth-child(4) .content a{
-    background: #06d79c;
+    background: #8f5c5d;
 }
 
 
