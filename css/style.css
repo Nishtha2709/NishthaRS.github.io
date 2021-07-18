@@ -854,15 +854,17 @@ img{
 }
 
 .contain{
-    position: relative;
+    /* position: relative;
     min-width: 100vh;
     top: 73px;
     width: 2000px;
-    padding: 20px;
+    padding: 20px; */
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
     /* justify-content: space-between; */
-    right: 10%;
+    /* right: 10%; */
     /* left: 10%; */
 }
 

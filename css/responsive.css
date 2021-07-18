@@ -1,8 +1,8 @@
 @media(max-width:991px){
-    .service-section .contain .content{
+    /* .service-section .contain .content{
         flex: 0 0 50%;
         max-width: 50%;
-    }
+    } */
 }
 
 @media(max-width:767px){
@@ -107,7 +107,10 @@
 }
 
 @media(max-width:1013px){
-    .service-section .contain{
+    .card{
         width: 50%;
     }
+    /* .card .content .p{
+        align-content: center;
+    } */
 }
