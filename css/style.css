@@ -907,6 +907,10 @@ img{
 
 }
 
+.contain .card .circle .h2 span{
+    font-size: 0.1em;
+}
+
 .contain .card .content{
     position: absolute;
     bottom: 10px;
