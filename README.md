@@ -7,6 +7,7 @@
 
   - [Tech Stack](#technology-stack)
   - [Key Features](#key-features)
+  - [File Structure](#file-structure)
 
 ### Technology stack
 
